@@ -2584,7 +2584,7 @@
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
+			text-align: center;
 		}
 
 		table thead {
@@ -3099,7 +3099,7 @@
 		left: 0;
 		line-height: 5em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 100%;
 		z-index: 10001;
@@ -3125,11 +3125,11 @@
 			font-family: 'Pacifico', cursive;
 			display: inline-block;
 			height: inherit;
-			left: 0;
+			left: 100px;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
-			position: left;
+			position: center;
 			top: 0;
 			color: #e5474b;
 			font-size: 1.75em;
@@ -3403,7 +3403,7 @@
 		#banner button,
 		#banner .button {
 			background-color: #5a5a5a;
-			color: #ffffff !important;
+			color: #e5474b !important;
 		}
 
 			#banner input[type="submit"]:hover,
@@ -3428,7 +3428,7 @@
 			#banner button.alt,
 			#banner .button.alt {
 				background-color: transparent;
-				box-shadow: inset 0 0 0 2px #fff;
+				box-shadow: inset 0 0 0 2px #e5474b;
 				color: #ffffff !important;
 			}
 
@@ -3453,7 +3453,7 @@
 				#banner input[type="button"].alt.icon:before,
 				#banner button.alt.icon:before,
 				#banner .button.alt.icon:before {
-					color: #f8d1d2;
+					color: #e5474b;
 				}
 
 			#banner input[type="submit"].special,
