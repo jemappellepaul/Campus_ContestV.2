@@ -3952,6 +3952,7 @@
 		}
 		.contain {
 		  width: 100%;
+		  margin-left: 2%;
 		}
 		.row {
 		  overflow: scroll;
@@ -3972,6 +3973,7 @@
 		  display: inline-block;
 		  width: 250px;
 		  height: 140.625px;
+		  margin-left: 10%;
 		  margin-right: 10px;
 		  font-size: 20px;
 		  cursor: pointer;
@@ -3982,7 +3984,7 @@
 		}
 		.tile__img {
 		  width: 250px;
-		  height: 140.625px;
+		  height: 400.625px;
 		  -o-object-fit: cover;
 		     object-fit: cover;
 		}
@@ -4016,9 +4018,6 @@
 		  text-align: center;
 		  z-index: 2;
 		}
-		.tile:hover .tile__details {
-		  opacity: 1;
-		}
 		.tile__title {
 		  position: absolute;
 		  bottom: 0;
@@ -4032,8 +4031,8 @@
 		  opacity: 0.3;
 		}
 		.row__inner:hover .tile:hover {
-		  -webkit-transform: scale(1.5);
-		          transform: scale(1.5);
+		  -webkit-transform: scale(1.1);
+		          transform: scale(1.1);
 		  opacity: 1;
 		}
 		.tile:hover ~ .tile {
