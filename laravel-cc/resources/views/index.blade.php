@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Manga++</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<span id="connexion"> <a href="index.blade.php" class="connexion">Connexion</a> </span>
+					<a href="index.blade.php" class="logo">Manga++</a>
+					<nav id="nav">
+						<a href="index.blade.php">Accueil</a>
+						<a href="generic.blade.php">Commander</a>
+						<a href="element.blade.php">Contact</a>
+					</nav>
+				</div>
+			</header>
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1><span>Location de Bandes Dessinnées et de Mangas.</span></h1>
+					<ul class="actions">
+						<li><a href="#" class="button alt">Je commande</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one">
+				<div class="inner">
+					<header>
+						<h2>Qui sommes-nous ?</h2>
+					</header>
+					<p>Nous sommes spécialisés dans la Location de Bandes Dessinnées et de Mangas.
+						Ce site est à la disposition de nos clients et de nos futurs clients pour permettre une dématérialisation 
+						et une meilleure gestion de nos services.<p>
+						Mais rien ne vous empêche de commander votre livre directement en magasin !</p>
+					<ul class="actions">
+						<li><a href="#" class="button alt">En savoir plus</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<header>
+								<h3>Bandes dessinées</h3>
+							</header>
+							<div class="image fit">
+								<img src="../image/pic01.jpg" alt="" />
+							</div>
+							<p>Nous possèdons une très large gamme de BDs, Des BD Françaises aux BD étrangères, des BD récentes aux plus anciennes ( certaines plus anciennes peuvent tenir lieu de cautions beaucoup plus importantes).</p>
+						</div>
+					</article>
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3>Mangas</h3>
+							</header>
+							<div class="image fit">
+								<img src="../image/pic02.jpg" alt="" />
+							</div>
+							<p>Nous possèdons des milliers de Mangas, et nous sommes également en partenariat avec plusieurs éditeurs et sites de scans japonais, Nous avons donc le droit à des exclusivités, et également de reçevoir les ouvrages quelques jours seulement après leur sortie au japon.</p>
+						</div>
+					</article>
+				</div>
+			</section>
+
+
+		<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<header>
+					</header>
+					<form method="post" action="#">
+						<ul class="actions">
+							<li><input type="submit" value="mentions légales" class="alt" /></li>
+						</ul>
+					</form>
+					<div class="copyright">
+						&copy; Manga++ - 2020
+					</div>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
