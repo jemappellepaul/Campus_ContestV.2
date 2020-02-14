@@ -28,7 +28,7 @@
 
           <div class="form-group">
               <label for="author">Author:</label>
-              <input type="text" class="form-control" name="name"/>
+              <input type="text" class="form-control" name="author"/>
           </div>
 
           <div class="form-group">
