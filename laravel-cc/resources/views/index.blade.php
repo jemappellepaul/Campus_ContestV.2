@@ -1,3 +1,6 @@
+@extends('base')
+
+@section('main')
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -15,7 +18,7 @@
 					<a href="index.blade.php" class="logo">Manga++</a>
 					<nav id="nav">
 						<a href="index.blade.php">Accueil</a>
-						<a href="generic.blade.php">Commander</a>
+						<a href="generic">Commander</a>
 						<a href="element.blade.php">Contact</a>
 					</nav>
 				</div>
