@@ -3072,11 +3072,11 @@
 
 	#two {
 		padding: 6em 0 4em 0;
-		background: #f3f3f3;
-		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
-		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
-		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 );
+		background: #e4e4e4;
+		background: -moz-linear-gradient(left, #e4e4e4 0%, #e4e4e4 50%, #f7f7f7 0%, #f7f7f7 100%);
+		background: -webkit-linear-gradient(left, #e4e4e4 0%, #e4e4e4 50%, #f7f7f7 0%, #f7f7f7 100%);
+		background: linear-gradient(to right, #e4e4e4 0%, #e4e4e4 50%, #f7f7f7 0%, #f7f7f7 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e4e4', endColorstr='#f7f7f7',GradientType=1 );
 	}
 
 		#two .inner {
