@@ -3226,10 +3226,20 @@
     	bottom: 20%;
    }
 
+   	  .fb {
+			position: absolute;
+			padding-left: 0.8%;
+            padding-top: 1%;
+		}
+
+	     	 .insta {
+			position: absolute;
+			padding-left: 0.8%;
+			padding-top: 5.3%;
 
 
-
-
+			
+		}
 
 		#footer input, #footer select, #footer textarea {
 			color: #1C1C1C;
@@ -3474,7 +3484,7 @@
 		  position: relative;
 		  display: inline-block;
 		  width: 225px;
-		  height: 1750.625px;
+		  height: 1720.625px;
 		  margin-left: 10%;
 		  margin-right: 10px;
 		  font-size: 20px;
@@ -3507,7 +3517,7 @@
 		.tile__details:before {
 		  content: '';
 		  position: center;
-		  top: 50%;
+		  top: 20%;
 		  left: 50%;
 		  display: #000;
 		}
