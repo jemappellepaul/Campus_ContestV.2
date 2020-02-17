@@ -85,13 +85,13 @@
 			
 			<section id="footer">
                
-                 <p class="fb">
+                 <div class="fb">
                  <img src="image/facebook.png" alt="" height="43px"/>
-                  </p>
+                  </div>
 
-                 <p class="insta">
+                 <div class="insta">
                  <img src="image/instagram.png" alt="" height="45px"/>
-                  </p>
+                  </div>
 
 				<div class="inner">
 					<header>
