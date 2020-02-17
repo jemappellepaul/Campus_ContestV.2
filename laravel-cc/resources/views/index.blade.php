@@ -1,25 +1,22 @@
 @extends('base')
-
-@section('main')
 <!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Manga++</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../css/main.css" />
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<span id="connexion"> <a href="index.blade.php" class="connexion">Connexion</a> </span>
-					<a href="index.blade.php" class="logo">Manga++</a>
+					<span id="connexion"> <a href="connexion" class="connexion">Connexion</a> </span>
+					<a href="index" class="logo">Manga++</a>
 					<nav id="nav">
-						<a href="index.blade.php">Accueil</a>
+						<a href="index">Accueil</a>
 						<a href="generic">Commander</a>
-						<a href="element.blade.php">Contact</a>
+						<a href="{{ route('contacts.create')}}" class="btn btn-primary">Contact</a>
 					</nav>
 				</div>
 			</header>

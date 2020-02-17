@@ -20,6 +20,7 @@
           <td>Email</td>
           <td>City</td>
           <td>Country</td>
+          <td>Message</td>
           <td colspan = 2>Actions</td>
         </tr>
     </thead>
@@ -31,9 +32,7 @@
             <td>{{$contact->email}}</td>
             <td>{{$contact->city}}</td>
             <td>{{$contact->country}}</td>
-            <td>
-                <a href="{{ route('contacts.edit',$contact->id)}}" class="btn btn-primary">Edit</a>
-            </td>
+            <td>{{$contact->message}}</td>
             <td>
                 <form action="{{ route('contacts.destroy', $contact->id)}}" method="post">
                   @csrf
@@ -43,9 +42,6 @@
             </td>
         </tr>
         @endforeach
-        <div>
-        <a style="margin: 19px;" href="{{ route('contacts.create')}}" class="btn btn-primary">New contact</a>
-        </div>  
     </tbody>
   </table>
 <div>

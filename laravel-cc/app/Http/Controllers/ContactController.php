@@ -40,7 +40,8 @@ class ContactController extends Controller
         $request->validate([
             'first_name'=>'required',
             'last_name'=>'required',
-            'email'=>'required'
+            'email'=>'required',
+            'message'=>'required'
         ]);
 
         $contact = new Contact([
@@ -48,10 +49,12 @@ class ContactController extends Controller
             'last_name' => $request->get('last_name'),
             'email' => $request->get('email'),
             'city' => $request->get('city'),
-            'country' => $request->get('country')
+            'country' => $request->get('country'),
+            'message' => $request->get('message')
         ]);
+
         $contact->save();
-        return redirect('/contacts')->with('success', 'Contact saved!');
+        return redirect('/index')->with('success', 'Message envoyé!');
     }
 
     /**
@@ -86,21 +89,7 @@ class ContactController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $request->validate([
-            'first_name'=>'required',
-            'last_name'=>'required',
-            'email'=>'required'
-        ]);
-
-        $contact = Contact::find($id);
-        $contact->first_name =  $request->get('first_name');
-        $contact->last_name = $request->get('last_name');
-        $contact->email = $request->get('email');
-        $contact->city = $request->get('city');
-        $contact->country = $request->get('country');
-        $contact->save();
-
-        return redirect('/contacts')->with('success', 'Contact updated!');
+        //
     }
 
     /**
