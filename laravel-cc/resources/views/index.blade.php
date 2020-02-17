@@ -5,14 +5,16 @@
 		<title>Manga++</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
 
 		<!-- Header -->
+		
 			<header id="header">
 				<div class="inner">
 					<span id="connexion"> <a href="connexion" class="connexion">Connexion</a> </span>
-					<a href="index" class="logo">Manga++</a>
+					<a class="logo">Manga++</a>
 					<nav id="nav">
 						<a href="index">Accueil</a>
 						<a href="generic">Commander</a>
@@ -23,6 +25,7 @@
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<!-- Banner -->
+
 			<section id="banner">
 				<div class="inner">
 					<h1><span>Location de Bandes Dessinnées et de Mangas.</span></h1>
@@ -33,6 +36,7 @@
 			</section>
 
 		<!-- One -->
+
 			<section id="one">
 				<div class="inner">
 					<header>
@@ -49,6 +53,7 @@
 			</section>
 
 		<!-- Two -->
+
 			<section id="two">
 				<div class="inner">
 					<article>
@@ -57,7 +62,7 @@
 								<h3>Bandes dessinées</h3>
 							</header>
 							<div class="image fit">
-								<img src="../image/pic01.jpg" alt="" />
+								<img src="image/pic01.jpg" alt="" />
 							</div>
 							<p>Nous possèdons une très large gamme de BDs, Des BD Françaises aux BD étrangères, des BD récentes aux plus anciennes ( certaines plus anciennes peuvent tenir lieu de cautions beaucoup plus importantes).</p>
 						</div>
@@ -68,7 +73,7 @@
 								<h3>Mangas</h3>
 							</header>
 							<div class="image fit">
-								<img src="../image/pic02.jpg" alt="" />
+								<img src="image/pic02.jpg" alt="" />
 							</div>
 							<p>Nous possèdons des milliers de Mangas, et nous sommes également en partenariat avec plusieurs éditeurs et sites de scans japonais, Nous avons donc le droit à des exclusivités, et également de reçevoir les ouvrages quelques jours seulement après leur sortie au japon.</p>
 						</div>
@@ -76,9 +81,18 @@
 				</div>
 			</section>
 
-
 		<!-- Footer -->
+			
 			<section id="footer">
+               
+                 <p class="fb">
+                 <img src="image/facebook.png" alt="" height="43px"/>
+                  </p>
+
+                 <p class="insta">
+                 <img src="image/instagram.png" alt="" height="45px"/>
+                  </p>
+
 				<div class="inner">
 					<header>
 					</header>
@@ -87,6 +101,7 @@
 							<li><input type="submit" value="mentions légales" class="alt" /></li>
 						</ul>
 					</form>
+
 					<div class="copyright">
 						&copy; Manga++ - 2020
 					</div>

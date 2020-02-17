@@ -38,7 +38,7 @@
 			        <div class="row__inner">
 			            <div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/naruto.jpg" alt=""/>
+			                <img class="tile__img" src="image/naruto.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -48,7 +48,7 @@
 			            </div>
 			            <div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/fairy.jpg" alt=""/>
+			                <img class="tile__img" src="image/fairy.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -58,7 +58,7 @@
 			            </div>
 			          <div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/One.png" alt=""/>
+			                <img class="tile__img" src="image/One.png" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -67,7 +67,7 @@
 			              </div>
 			            </div><div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/One_punch.jpg" alt=""/>
+			                <img class="tile__img" src="image/One_punch.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -76,7 +76,7 @@
 			              </div>
 			            </div><div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/naruto1.jpg" alt=""/>
+			                <img class="tile__img" src="image/naruto1.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -86,7 +86,7 @@
 			            </div>
 			            <div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/Fullmetal.jpg" alt=""/>
+			                <img class="tile__img" src="image/Fullmetal.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -102,7 +102,7 @@
 			        <div class="row__inner">
 			            <div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/lucky.jpg" alt=""/>
+			                <img class="tile__img" src="image/lucky.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -112,7 +112,7 @@
 			            </div>
 			            <div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/simpson.jpg" alt=""/>
+			                <img class="tile__img" src="image/simpson.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -122,7 +122,7 @@
 			            </div>
 			          <div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/garfield.jpg" alt=""/>
+			                <img class="tile__img" src="image/garfield.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -131,7 +131,7 @@
 			              </div>
 			            </div><div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/lapin.jpg" alt=""/>
+			                <img class="tile__img" src="image/lapin.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -140,7 +140,7 @@
 			              </div>
 			            </div><div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/gaston.jpg" alt=""/>
+			                <img class="tile__img" src="image/gaston.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
@@ -150,7 +150,7 @@
 			            </div>
 			            <div class="tile">
 			              <div class="tile__media">
-			                <img class="tile__img" src="../image/asterix.jpg" alt=""/>
+			                <img class="tile__img" src="image/asterix.jpg" alt=""/>
 			              </div>
 			              <div class="tile__details">
 			                <div class="tile__title">
