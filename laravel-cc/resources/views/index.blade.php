@@ -14,7 +14,7 @@
 			<header id="header">
 				<div class="inner">
 					<span id="connexion"> <a href="connexion" class="connexion">Connexion</a> </span>
-					<a class="logo">Manga++</a>
+					<a href="index" class="logo">Manga++</a>
 					<nav id="nav">
 						<a href="index">Accueil</a>
 						<a href="generic">Commander</a>

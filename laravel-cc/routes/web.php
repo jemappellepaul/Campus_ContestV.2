@@ -14,7 +14,7 @@ Route::get('element', function () {
     return view('element');
 });
 
-Route::get('/generic', function () {
+Route::get('generic', function () {
     return view('generic');
 });
 
