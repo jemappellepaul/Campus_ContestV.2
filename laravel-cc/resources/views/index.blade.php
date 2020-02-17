@@ -1,4 +1,3 @@
-@extends('base')
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -13,12 +12,12 @@
 		
 			<header id="header">
 				<div class="inner">
-					<span id="connexion"> <a href="connexion" class="connexion">Connexion</a> </span>
+					<span id="connexion"> <a href="index.html" class="connexion">Connexion</a> </span>
 					<a class="logo">Manga++</a>
 					<nav id="nav">
-						<a href="index">Accueil</a>
-						<a href="generic">Commander</a>
-						<a href="{{ route('contacts.create')}}" class="btn btn-primary">Contact</a>
+						<a href="index.html">Accueil</a>
+						<a href="commander.html">Commander</a>
+						<a href="contact.html">Contact</a>
 					</nav>
 				</div>
 			</header>
@@ -62,7 +61,7 @@
 								<h3>Bandes dessinées</h3>
 							</header>
 							<div class="image fit">
-								<img src="image/pic01.jpg" alt="" />
+								<img src="images/pic01.jpg" alt="" />
 							</div>
 							<p>Nous possèdons une très large gamme de BDs, Des BD Françaises aux BD étrangères, des BD récentes aux plus anciennes ( certaines plus anciennes peuvent tenir lieu de cautions beaucoup plus importantes).</p>
 						</div>
@@ -73,7 +72,7 @@
 								<h3>Mangas</h3>
 							</header>
 							<div class="image fit">
-								<img src="image/pic02.jpg" alt="" />
+								<img src="images/pic02.jpg" alt="" />
 							</div>
 							<p>Nous possèdons des milliers de Mangas, et nous sommes également en partenariat avec plusieurs éditeurs et sites de scans japonais, Nous avons donc le droit à des exclusivités, et également de reçevoir les ouvrages quelques jours seulement après leur sortie au japon.</p>
 						</div>
@@ -85,13 +84,13 @@
 			
 			<section id="footer">
                
-                 <p class="fb">
-                 <img src="image/facebook.png" alt="" height="43px"/>
-                  </p>
+                 <div class="fb">
+                 <img src="images/facebook.png" alt="" height="43px"/>
+                 </div>
 
-                 <p class="insta">
-                 <img src="image/instagram.png" alt="" height="45px"/>
-                  </p>
+                 <div class="insta">
+                 <img src="images/instagram.png" alt="" href="https://www.instagram.com/" height="45px"/>
+                  </div>
 
 				<div class="inner">
 					<header>
