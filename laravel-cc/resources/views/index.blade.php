@@ -27,6 +27,11 @@
 		<!-- Banner -->
 
 			<section id="banner">
+
+				<div class="bann">
+                 <img src="image/bann.jpg" alt="" />
+                  </div>
+
 				<div class="inner">
 					<h1><span>Location de Bandes Dessinnées et de Mangas.</span></h1>
 					<ul class="actions">
