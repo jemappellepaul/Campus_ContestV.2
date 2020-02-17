@@ -14,12 +14,12 @@
 			<header id="header">
 				<div class="inner">
 					<!-- Menu -->
-					<a href="index" class="connexion">connexion</a>
+					<span id="connexion"> <a href="connexion" class="connexion">Connexion</a> </span>
 					<a href="index" class="logo">Manga++</a>
 					<nav id="nav">
 						<a href="index">Accueil</a>
 						<a href="generic">Commander</a>
-						<a href="contacts">Contact</a>
+						<a href="{{ route('contacts.create')}}" class="btn btn-primary">Contact</a>
 					</nav>
 				</div>
 			</header>
