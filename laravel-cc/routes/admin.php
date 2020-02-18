@@ -1,4 +1,13 @@
 <?php
-Route::get('index', function(){
-    return view('element');
-})->name('admin.dashboard');
+
+/*Spécific routes only for available for users authentified as admin*/
+
+Route::get('dashboard', function(){
+    return view('dashboard');
+});
+
+Route::resource('contacts_dash', 'ContactController');
+Route::apiResource('contacts_dash', 'ContactController');
+
+Route::resource('books', 'BookController');
+Route::apiResource('books', 'BookController');

@@ -13,7 +13,7 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<span id="connexion"> <a href="index.html" class="connexion">Connexion</a> </span>
+					<span id="connexion"> <a href="connexion" class="connexion">Connexion</a> </span>
 					<a href="index" class="logo">Manga++</a>
 					<nav id="nav">
 						<a href="index">Accueil</a>
