@@ -19,14 +19,13 @@
 						<a href="index">Accueil</a>
 						<a href="generic">Commander</a>
 						<a href="{{ route('contacts.create')}}" class="btn btn-primary">Contact</a>
-<<<<<<< HEAD
+
 						
 						<div class="DB">
                         <a href="index"><img src="image/dashboard.png" height="65px"> </a>
-=======
-						<div class="DB">
-                 <img src="image/dashboard.png" alt="" height="65px"/>
->>>>>>> 6a2be38b631258906065c481f7705d0818043326
+
+						
+
                  
                   </div>
 					</nav>
