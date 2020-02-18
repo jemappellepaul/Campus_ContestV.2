@@ -19,6 +19,10 @@
 						<a href="index">Accueil</a>
 						<a href="generic">Commander</a>
 						<a href="{{ route('contacts.create')}}" class="btn btn-primary">Contact</a>
+						<div class="DB">
+                 <img src="image/dashboard.png" alt="" height="65px"/>
+                 
+                  </div>
 					</nav>
 				</div>
 			</header>
@@ -27,11 +31,7 @@
 		<!-- Banner -->
 
 			<section id="banner">
-
-				<div class="bann">
-                 <img src="image/bann.jpg" alt="" />
-                  </div>
-
+	
 				<div class="inner">
 					<h1><span>Location de Bandes Dessinnées et de Mangas.</span></h1>
 					<ul class="actions">

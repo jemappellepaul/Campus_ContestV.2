@@ -2557,8 +2557,11 @@
 		padding-top: 5em;
 	}
 
-      #header .inner #connexion
-     
+      #header .inner #connexion{
+      position: absolute;
+      margin-left: -65%
+
+     }
 {
       
      margin-right: 400px;
@@ -2604,14 +2607,15 @@
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
-			position: left;
+			position: absolute;
 			top: 0;
 			color: #e5474b;
 			font-size: 1.75em;
 			text-transform: none;
 			font-weight: normal;
 			padding: 0;
-			margin-right: 110px;
+			margin-left: 36%;
+			
 		}
 
 			#header .logo:hover {
@@ -2656,6 +2660,21 @@
 
 	}
 
+#header .inner #nav {
+	position: relative;
+	margin-right: -70%;
+
+
+}
+#header .inner #nav .DB {
+	position: top;
+	margin-right: -120%;
+	margin-top: -16%;
+
+}
+
+
+
 /* Menu */
 
 	#nav {
@@ -2675,7 +2694,7 @@
 		text-decoration: none;
 		height: 4em;
 		right: 1em;
-		top: .75em;
+		top: 20%;
 		width: 4em;
 		display: none;
 		z-index: 10002;
@@ -2692,7 +2711,7 @@
 			display: block;
 			font-size: 16px;
 			height: 2.25em;
-			left: 0.5em;
+			left: 10%;
 			line-height: 2.25em;
 			position: left;
 			text-align: center;
@@ -2835,7 +2854,7 @@
 		color: #f2a3a5;
 		padding: 13em 0 11em 0;
 		background-color: #0c0c0c;
-		background-image: url ("/image/bann.jpg");
+		background-image: url ("/image/banner.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 15% left;
@@ -2844,7 +2863,7 @@
 		z-index: 9999;
 	}
 	#banner .inner {
-		background-image: url ("/image/bann.jpg");
+		background-image: url ("/image/banner.jpg");
 	}
 
 		#banner input, #banner select, #banner textarea {

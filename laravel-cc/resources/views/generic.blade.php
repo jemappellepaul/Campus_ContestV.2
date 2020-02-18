@@ -163,6 +163,28 @@
 			    </div>
 			</section>
 
+			<section id="emprunter">
+				<div class="inner">
+					<header>
+						<h2>emprunter</h2>
+					</header>
+					<form method="post" action="#">
+						<div class="fhf">
+							<label for="name">Nom/prénom</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="fh">
+							<label for="email">Numéro du tome et nom du tome.</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						
+						<ul class="actions">
+							<li><input type="submit" value="Emprunter" class="alt" /></li>
+						</ul>
+					</form>
+				</div>
+			</section>
+
 			<!-- Footer -->
 			
 			<section id="footer">
