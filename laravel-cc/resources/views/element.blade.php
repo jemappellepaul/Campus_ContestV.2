@@ -32,9 +32,6 @@
 						<p>Une remarque, une question, n'hésitez pas à nous contacter !</p>
 					</header>
 
-					<!-- Text -->
-						
-
 		<!-- Footer -->
 			<section id="footer">
 				<div class="inner">

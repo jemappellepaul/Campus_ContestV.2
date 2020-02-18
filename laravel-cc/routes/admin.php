@@ -1,4 +1,4 @@
 <?php
-Route::get('/admin/index', function(){
-    return 'index';
+Route::get('index', function(){
+    return view('element');
 })->name('admin.dashboard');
