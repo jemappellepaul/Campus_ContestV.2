@@ -40,4 +40,5 @@ Route::get('connexion', 'HomeController@index')->name('connection');
 
 Route::get('home', function () {
     return view('index');
+
 });
