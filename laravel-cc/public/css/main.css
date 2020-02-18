@@ -2668,7 +2668,11 @@
 }
 #header .inner #nav .DB {
 	position: top;
+<<<<<<< HEAD
 	margin-right: -110%;
+=======
+	margin-right: -120%;
+>>>>>>> 6a2be38b631258906065c481f7705d0818043326
 	margin-top: -16%;
 
 }
