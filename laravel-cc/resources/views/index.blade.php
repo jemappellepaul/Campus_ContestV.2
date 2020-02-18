@@ -20,8 +20,8 @@
 						<a href="generic">Commander</a>
 						<a href="{{ route('contacts.create')}}" class="btn btn-primary">Contact</a>
 						<div class="DB">
-                 <img src="image/dashboard.png" alt="" height="65px"/>
-                 
+							<a href="index"></a>
+                 			<img src="image/dashboard.png" alt="" height="65px"/>
                   </div>
 					</nav>
 				</div>
