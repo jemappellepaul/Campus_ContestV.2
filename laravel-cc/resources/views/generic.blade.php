@@ -170,11 +170,11 @@
 					</header>
 					<form method="post" action="#">
 						<div class="fhf">
-							<label for="name">Nom/prénom</label>
+							<label for="name">Nom de votre ouvrage:</label>
 							<input type="text" name="name" id="name" />
 						</div>
 						<div class="fh">
-							<label for="email">Numéro du tome et nom du tome.</label>
+							<label for="email">Numéro du tome:</label>
 							<input type="text" name="email" id="email" />
 						</div>
 						
