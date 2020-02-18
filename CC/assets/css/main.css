@@ -1,7 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
 
-
+	
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -2512,6 +2512,7 @@
 		max-width: 65em;
 		width: calc(100% - 6em);
 		margin: 0 auto;
+
 	}
 
 		@media screen and (max-width: 480px) {
@@ -2519,6 +2520,7 @@
 			section .inner {
 				max-width: 90%;
 				width: 90%;
+
 			}
 
 		}
@@ -2527,6 +2529,7 @@
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
+	
 
 	header h2 + p {
 		font-size: 1.25em;
@@ -2556,6 +2559,8 @@
 		position: relative;
 		padding-top: 5em;
 	}
+
+	
 
       #header .inner #connexion
      
@@ -3550,4 +3555,262 @@
 		.tile:hover ~ .tile {
 		  -webkit-transform: translate3d(125px, 0, 0);
 		          transform: translate3d(125px, 0, 0);
+		}
+
+		/* Footer contact */
+
+	#footercontact {
+		background-color: #1C1C1C;
+		color: #ffffff;
+		padding: 0.5em  0.5em 0;
+		background: #1C1C1C;
+		margin-bottom: 0;
+
+	}
+    #footercontact .inner #message {
+       position: relative;
+    	padding-left: 40%;
+    	bottom: 20%;
+   }
+
+   	  .fb {
+			position: absolute;
+			padding-left: 0.8%;
+            padding-top: 1%;
+		}
+
+	     	 .insta {
+			position: absolute;
+			padding-left: 0.8%;
+			padding-top: 5.3%;
+
+
+			
+		}
+
+		#footercontact input, #footercontact select, #footercontact textarea {
+			color: #1C1C1C;
+		}
+
+		#footercontact a {
+			color: #1C1C1C;
+		}
+
+		#footercontact strong, #footercontact b {
+			color: #1C1C1C;
+		}
+
+		#footercontact h1, #footercontact h2, #footercontact h3, #footercontact h4, #footercontact h5, #footercontact h6 {
+			color: #fff;
+		}
+
+		#footercontact blockquote {
+			border-left-color: #fff;
+		}
+
+		#footercontact code {
+			background: none;
+			border-color: #fff;
+		}
+
+		#footercontact hr {
+			border-bottom-color: #fff;
+		}
+
+		#footercontact input[type="submit"],
+		#footercontact input[type="reset"],
+		#footercontact input[type="button"],
+		#footercontact button,
+		#footercontact .button {
+			background-color: #5a5a5a;
+			color: #1C1C1C !important;
+		}
+
+			#footercontact input[type="submit"]:hover,
+			#footercontact input[type="reset"]:hover,
+			#footercontact input[type="button"]:hover,
+			#footercontact button:hover,
+			#footercontact .button:hover {
+				background-color: #676767;
+			}
+
+			#footercontact input[type="submit"]:active,
+			#footercontact input[type="reset"]:active,
+			#footercontact input[type="button"]:active,
+			#footercontact button:active,
+			#footercontact .button:active {
+				background-color: #4d4d4d;
+			}
+
+			#footercontact input[type="submit"].alt,
+			#footercontact input[type="reset"].alt,
+			#footercontact input[type="button"].alt,
+			#footercontact button.alt,
+			#footercontact .button.alt {
+				background-color: transparent;
+				box-shadow: inset 0 0 0 2px #fff;
+				color: #ffffff !important;
+			}
+
+				#footercontact input[type="submit"].alt:hover,
+				#footercontact input[type="reset"].alt:hover,
+				#footercontact input[type="button"].alt:hover,
+				#footercontact button.alt:hover,
+				#footercontact .button.alt:hover {
+					background: rgba(255, 255, 255, 0.25);
+				}
+
+				#footercontact input[type="submit"].alt:active,
+				#footercontact input[type="reset"].alt:active,
+				#footercontact input[type="button"].alt:active,
+				#footercontact button.alt:active,
+				#footercontact .button.alt:active {
+					background-color: rgba(255, 255, 255, 0.2);
+				}
+
+				#footercontact input[type="submit"].alt.icon:before,
+				#footercontact input[type="reset"].alt.icon:before,
+				#footercontact input[type="button"].alt.icon:before,
+				#footercontact button.alt.icon:before,
+				#footercontact .button.alt.icon:before {
+					color: #f8d1d2;
+				}
+
+			#footercontact input[type="submit"].special,
+			#footercontact input[type="reset"].special,
+			#footercontact input[type="button"].special,
+			#footercontact button.special,
+			#footercontact .button.special {
+				background-color: #1C1C1C;
+				color: #1C1C1C !important;
+			}
+
+		#footercontact label {
+			color: #ffffff;
+		}
+
+		#footercontact input[type="text"],
+		#footercontact input[type="password"],
+		#footercontact input[type="email"],
+		#footercontact select,
+		#footercontact textarea {
+			background: none;
+			border-color: rgba(255, 255, 255, 0.25);
+		}
+
+			#footercontact input[type="text"]:focus,
+			#footercontact input[type="password"]:focus,
+			#footercontact input[type="email"]:focus,
+			#footercontact select:focus,
+			#footercontact textarea:focus {
+				border-color: #1C1C1C;
+				box-shadow: 0 0 0 1px #1C1C1C;
+			}
+
+		#footercontact .select-wrapper:before {
+			color: #fff;
+		}
+
+		#footercontact input[type="checkbox"] + label,
+		#footercontact input[type="radio"] + label {
+			color: #1C1C1C;
+		}
+
+			#footercontact input[type="checkbox"] + label:before,
+			#footercontact input[type="radio"] + label:before {
+				background: none;
+				border-color: #1C1C1C;
+			}
+
+		#footercontact input[type="checkbox"]:checked + label:before,
+		#footercontact input[type="radio"]:checked + label:before {
+			background-color: #1C1C1C;
+			border-color: #1C1C1C;
+			color: #1C1C1C;
+		}
+
+		#footercontact input[type="checkbox"]:focus + label:before,
+		#footercontact input[type="radio"]:focus + label:before {
+			border-color: #1C1C1C;
+			box-shadow: 0 0 0 1px #1C1C1C;
+		}
+
+		#footercontact ::-webkit-input-placeholder {
+			color: #f8d1d2 !important;
+		}
+
+		#footercontact :-moz-placeholder {
+			color: #f8d1d2 !important;
+		}
+
+		#footercontact ::-moz-placeholder {
+			color: #f8d1d2 !important;
+		}
+
+		#footercontact :-ms-input-placeholder {
+			color: #f8d1d2 !important;
+		}
+
+		#footercontact .formerize-placeholder {
+			color: #f8d1d2 !important;
+		}
+
+		#footercontact .inner {
+			max-width: 65em;
+			width: calc(100% - 6em);
+			margin: 0 auto;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+
+			@media screen and (max-width: 480px) {
+
+				#footercontact .inner {
+					max-width: 90%;
+					width: 90%;
+					margin-bottom: 0;
+			        padding-bottom: 0;
+				}
+
+			}
+            #footercontact .inner .actions
+    {
+    	position: relative;
+    	padding-left: 40%;
+    	bottom: 20%;
+    	
+    }
+
+		#footercontact .copyright {
+			font-size: 0.9em;
+			margin: 0;
+            padding: 0;
+			position: relative;
+			padding-bottom: 1%; 
+			padding-left: 44.5%;
+		}
+
+
+		@media screen and (max-width: 600px) {
+
+			#footercontact {
+				padding: 4em 0 2em 0;
+			}
+
+		}
+
+		@media screen and (max-width: 400px) {
+
+			#footercontact {
+				padding: 2em 0 0.1em 0;
+			}
+
+		}
+	# Sidebar
+		a.sidebar {
+		width: 250px;
+		position: absolute;
+		top: 40px;
+		left: 100px;
+		padding-bottom: 80px;
 		}
