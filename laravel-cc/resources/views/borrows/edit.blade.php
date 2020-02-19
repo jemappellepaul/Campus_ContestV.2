@@ -22,11 +22,6 @@
                 <input type="text" class="form-control" name="name" value={{ $borrow->name }} />
             </div>
 
-             <div class="form-group">
-                <label for="id_book">id_book:</label>
-                <input type="text" class="form-control" name="name" value={{ $borrow->name }} />
-            </div>
-
             <div class="form-group">
                 <label for="volume">Volume:</label>
                 <input type="text" class="form-control" name="volume" value={{ $borrow->volume }} />
