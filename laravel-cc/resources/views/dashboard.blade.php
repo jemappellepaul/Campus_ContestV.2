@@ -32,19 +32,6 @@
 				<a href="borrows">Locations</a>
 				<a href="contacts_dash">Contacts</a>
 		</div>
-
-		<div>
-			<?php
-			$name = "Le Fonds du Ciel";
-			$bdd = new PDO('mysql:host=localhost;dbname=dbcc' , 'root' , '');
-			$quantity = $bdd->query('SELECT quantity FROM books WHERE name ="'.$name.'"')->fetch()[0];
-			echo $quantity;
-			$quantity -= 1;
-			$bdd->query('UPDATE books SET quantity ="'.$quantity.'"WHERE name ="'.$name.'"');
-			$quantity = $bdd->query('SELECT quantity FROM books WHERE name ="'.$name.'"')->fetch()[0];
-			echo $quantity;
-			?>
-		</div>
 		
 		<!-- End Sidebar -->
 		

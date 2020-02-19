@@ -178,22 +178,45 @@
 					<header>
 						<h2>emprunter</h2>
 					</header>
-					<form method="post" action="#">
+					<form method="get" action="#">
 						<div class="fhf">
-
 							<label for="name">Nom de votre ouvrage:</label>
 							<input type="text" name="name" id="name" />
 						</div>
 						<div class="fh">
 							<label for="email">Numéro du tome:</label>
-
-							<input type="text" name="email" id="email" />
+							<input type="text" name="volume" id="volume" />
 						</div>
+						<?php  ?>
+						<label for="start">Date d'emprunt:</label>
+						<input type="date" id="start" name="start_borrow"
+						       min="2020-01-01" max="2020-12-31">
+
+
+						<!-- <label for="start">Date de retour:</label>
+						<input type="date" id="end" name="end_borrow"
+						       value="2018-07-22"
+						       min="2018-01-01" max="2018-12-31"> -->
 						
 						<ul class="actions">
 							<li><input type="submit" value="Emprunter" class="alt" /></li>
 						</ul>
 					</form>
+					<div>
+						<?php
+						if(isset($_GET['name']) && isset($_GET['volume'])) {
+							$name = $_GET['name'];
+							$volume = $_GET['volume'];
+							$bdd = new PDO('mysql:host=localhost;dbname=dbcc' , 'root' , '');
+							$quantity = $bdd->query('SELECT quantity FROM books WHERE name ="'.$name.'" AND volume ="'.$volume.'"')->fetch()[0];
+							echo $quantity;
+							$quantity -= 1;
+							$bdd->query('UPDATE books SET quantity ="'.$quantity.'"WHERE name ="'.$name.'" AND volume ="'.$volume.'"');
+							$quantity = $bdd->query('SELECT quantity FROM books WHERE name ="'.$name.'" AND volume ="'.$volume.'"')->fetch()[0];
+							echo $quantity;
+						}
+						?>
+					</div>
 				</div>
 			</section>
 
@@ -212,7 +235,7 @@
 				<div class="inner">
 					<header>
 					</header>
-					<form method="post" action="#">
+					<form method="post" action="generic">
 						<ul class="actions">
 							<li><input type="submit" value="mentions légales" class="alt" /></li>
 						</ul>
