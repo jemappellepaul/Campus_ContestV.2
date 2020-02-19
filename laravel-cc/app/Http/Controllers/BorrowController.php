@@ -34,13 +34,13 @@ class BorrowController extends Controller
             'end_borrow'=>'required'
         ]);
 
-        $Borrow = new Borrow([
+        $borrow = new Borrow([
             'name' => $request->get('name'),
             'volume' => $request->get('volume'),
             'begin_borrow' => $request->get('begin_borrow'),
             'end_borrow' => $request->get('end_borrow')
         ]);
-        $Borrow->save();
+        $borrow->save();
         return redirect('/borrows')->with('success', 'Borrow saved!');
     }
 
