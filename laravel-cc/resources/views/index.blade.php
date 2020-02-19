@@ -26,7 +26,7 @@
 
 						<div class="DB">
 
-                        <a href="index"><img src="image/dashboard.png" height="65px"> </a>
+                        <a href="dashboard"><img src="image/dashboard.png" height="65px"> </a>
                         </div>
 
 					</nav>

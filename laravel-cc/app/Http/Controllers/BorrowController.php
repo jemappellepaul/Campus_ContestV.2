@@ -27,21 +27,30 @@ class BorrowController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request);
         $request->validate([
             'name'=>'required',
             'volume'=>'required',
-            'begin_borrow'=>'required',
+            'start_borrow'=>'required',
             'end_borrow'=>'required'
         ]);
+
+        /*$name = $request->get('name');
+        $volume = $request->get('volume');
+        $bdd = new PDO('mysql:host=localhost;dbname=dbcc' , 'root' , '');
+        $quantity = $bdd->query('SELECT quantity FROM books WHERE name ="'.$name.'" AND volume ="'.$volume.'"')->fetch()[0];
+        $quantity -= 1;
+        $bdd->query('UPDATE books SET quantity ="'.$quantity.'"WHERE name ="'.$name.'" AND volume ="'.$volume.'"');
+        $quantity = $bdd->query('SELECT quantity FROM books WHERE name ="'.$name.'" AND volume ="'.$volume.'"')->fetch()[0];*/
 
         $borrow = new Borrow([
             'name' => $request->get('name'),
             'volume' => $request->get('volume'),
-            'begin_borrow' => $request->get('begin_borrow'),
+            'start_borrow' => $request->get('start_borrow'),
             'end_borrow' => $request->get('end_borrow')
         ]);
         $borrow->save();
-        return redirect('/borrows')->with('success', 'Borrow saved!');
+        return redirect('/index')->with('success', 'Borrow saved!');
     }
 
     /**

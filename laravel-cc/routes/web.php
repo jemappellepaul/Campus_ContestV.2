@@ -23,6 +23,8 @@ Route::get('generic', function () {
 Route::resource('contacts', 'ContactController');
 Route::apiResource('contacts', 'ContactController');
 
+Route::resource('borrows', 'BorrowController');
+
 /*Authentification routes*/
 
 Auth::routes();

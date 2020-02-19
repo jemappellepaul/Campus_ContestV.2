@@ -18,7 +18,7 @@
           <td>ID</td>
           <td>Name</td>
           <td>Volume</td>
-          <td>Begin_Borrow</td>
+          <td>Start_Borrow</td>
           <td>End_Borrow</td>
           <td colspan = 2>Actions</td>
         </tr>
@@ -29,7 +29,7 @@
             <td>{{$borrow->id}}</td>
             <td>{{$borrow->name}}</td>
             <td>{{$borrow->volume}}</td>
-            <td>{{$borrow->begin_borrow}}</td>
+            <td>{{$borrow->start_borrow}}</td>
             <td>{{$borrow->end_borrow}}</td>
             <td>
                 <a href="{{ route('borrows.edit',$borrow->id)}}" class="btn btn-primary">Edit</a>

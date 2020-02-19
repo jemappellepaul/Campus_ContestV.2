@@ -6,10 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Borrow extends Model
 {
+	protected $table = "borrows";
     protected $fillable = [
         'name',
         'volume',
-        'begin_borrow',
+        'start_borrow',
         'end_borrow',      
     ];
 }
