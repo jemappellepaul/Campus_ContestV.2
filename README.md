@@ -24,7 +24,7 @@ Les fonctionnalités de gestion des ouvrages sont présentes,
 
 Les fonctionnalités de gestion des réservations/emprunts sont présentes,
 
-Les fonctionnalités de gestion des retours des ouvrages sont présentes,
+Les fonctionnalités de gestion des retours des ouvrages sont a gerer au magasin.
 
 Les fonctionnalités de gestion de la partie administrateur sont présentes.
 
@@ -35,7 +35,6 @@ Les fonctionnalités de gestion de la partie administrateur sont présentes.
 * Rapide et facile d'utilisation 
 * Utilisateur en ligne
 * Parcourez tout les livres proposer par l'entreprise
-* Un prix par réservation peut être fixé
 * L'utilisation est stockée automatiquement
 * Panneau de contrôle utilisateur
 * Panneau de contrôle d'administration
