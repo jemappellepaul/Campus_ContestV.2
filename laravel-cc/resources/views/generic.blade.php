@@ -180,6 +180,12 @@
 					</header>
 					<form method="get" action="#">
 						<div class="fhf">
+							<label for="nom">Nom de votre ouvrage:</label>
+							<input type="text" name="nom" id="nom" />
+						</div>
+						<div class="fh">
+							<label for="tome">Numéro du tome:</label>
+							<input type="text" name="tome" id="tome" />
 							<label for="name">Nom de votre ouvrage:</label>
 							<input type="text" name="name" id="name" />
 						</div>

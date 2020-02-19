@@ -37,7 +37,6 @@
 		<!-- Banner -->
 
 			<section id="banner">
-	
 				<div class="inner">
 					<h1><span>Location de Bandes Dessinnées et de Mangas.</span></h1>
 					<ul class="actions">
@@ -53,13 +52,10 @@
 					<header>
 						<h2>Qui sommes-nous ?</h2>
 					</header>
-					<p>Nous sommes spécialisés dans la Location de Bandes Dessinnées et de Mangas.
+					    <p>Nous sommes spécialisés dans la Location de Bandes Dessinnées et de Mangas.
 						Ce site est à la disposition de nos clients et de nos futurs clients pour permettre une dématérialisation 
 						et une meilleure gestion de nos services.<p>
 						Mais rien ne vous empêche de commander votre livre directement en magasin !</p>
-					<ul class="actions">
-						<li><a href="#" class="button alt">En savoir plus</a></li>
-					</ul>
 				</div>
 			</section>
 
@@ -108,7 +104,7 @@
                   </div>
 
 				<div class="inner">
-					
+
 					<form method="post" action="#">
 						<ul class="actions">
 							<li><input type="submit" value="mentions légales" class="alt" /></li>
@@ -129,3 +125,5 @@
 
 	</body>
 </html>
+
+<!-- fin -->
