@@ -1,6 +1,7 @@
 @extends('base')
-
 @section('main')
+
+<!-- titre -->
 <div class="row">
  <div class="col-sm-8 offset-sm-2">
     <h1 class="display-3">Add a book</h1>
@@ -14,6 +15,8 @@
         </ul>
       </div><br />
     @endif
+
+    <!-- Formulaire d'ajout de livre -->
       <form method="post" action="{{ route('books.store') }}">
           @csrf
           <div class="form-group">    

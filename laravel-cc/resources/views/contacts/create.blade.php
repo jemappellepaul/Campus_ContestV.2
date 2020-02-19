@@ -14,6 +14,7 @@
         </ul>
       </div><br />
     @endif
+        <!-- Formulaire d'ajout de message -->
       <form method="post" action="{{ route('contacts.store') }}">
           @csrf
           <div class="form-group">    

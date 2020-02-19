@@ -33,7 +33,6 @@
 				<a href="contacts_dash">Contacts</a>
 		</div>
 		
-		<!-- End Sidebar -->
 		
 		<!-- Footer -->
 			

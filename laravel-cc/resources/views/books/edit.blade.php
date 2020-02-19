@@ -1,5 +1,7 @@
 @extends('base') 
 @section('main')
+
+<!-- titre -->
 <div class="row">
     <div class="col-sm-8 offset-sm-2">
         <h1 class="display-3">Update a book</h1>
@@ -14,6 +16,9 @@
         </div>
         <br /> 
         @endif
+
+        <!-- Formulaire de modification de livre qui reprend
+            au naturel les informations du livre à modifier -->
         <form method="post" action="{{ route('books.update', $book->id) }}">
             @method('PATCH') 
             @csrf

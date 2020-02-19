@@ -37,8 +37,6 @@
 					</header>					
 				</div>
 
-				<!-- slider -->
-
 				<!-- mangas -->
 				<div class="contain">
 				<h2><u>Mangas</u></h2>
@@ -172,6 +170,8 @@
 			      </div>
 			    </div>
 			</section>
+
+			<!-- Formulaire d'emprunt -->
 
 			<section id="emprunter">
 				<div class="inner">

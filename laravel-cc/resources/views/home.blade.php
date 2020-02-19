@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+<!-- Page de connection -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -2,6 +2,7 @@
 @section('main')
 <div class="row">
     <div class="col-sm-8 offset-sm-2">
+        <!-- titre -->
         <h1 class="display-3">Update a member</h1>
 
         @if ($errors->any())
@@ -14,6 +15,8 @@
         </div>
         <br /> 
         @endif
+        <!-- formulaire d'édition de membre reprenant au
+            naturel les informations du membre à modifier -->
         <form method="post" action="{{ route('members.update', $member->id) }}">
             @method('PATCH') 
             @csrf

@@ -21,7 +21,6 @@ Route::get('generic', function () {
 /*Database pages redirection*/
 
 Route::resource('contacts', 'ContactController');
-Route::apiResource('contacts', 'ContactController');
 
 Route::resource('borrows', 'BorrowController');
 

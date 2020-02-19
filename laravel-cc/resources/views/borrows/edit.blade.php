@@ -14,6 +14,8 @@
         </div>
         <br /> 
         @endif
+        <!-- formulaire d'édition d'emprunts reprenant au naturel
+        les informations de l'emprunt à modifier -->
         <form method="post" action="{{ route('borrows.update', $borrow->id) }}">
             @method('PATCH') 
             @csrf
