@@ -11,3 +11,6 @@ Route::apiResource('contacts_dash', 'ContactController');
 
 Route::resource('books', 'BookController');
 Route::apiResource('books', 'BookController');
+
+Route::resource('members', 'MemberController');
+Route::apiResource('members', 'MemberController');

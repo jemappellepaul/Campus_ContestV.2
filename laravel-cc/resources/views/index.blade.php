@@ -18,11 +18,17 @@
 					<nav id="nav">
 						<a href="index">Accueil</a>
 						<a href="generic">Commander</a>
+
+						<!-- bdd contact  -->
 						<a href="{{ route('contacts.create')}}" class="btn btn-primary">Contact</a>
+
+						<!-- lien dashboard-->
+
 						<div class="DB">
-							<a href="index"></a>
-                 			<img src="image/dashboard.png" alt="" height="65px"/>
-                  </div>
+
+                        <a href="index"><img src="image/dashboard.png" height="65px"> </a>
+                        </div>
+
 					</nav>
 				</div>
 			</header>
@@ -40,7 +46,7 @@
 				</div>
 			</section>
 
-		<!-- One -->
+		<!-- description principale -->
 
 			<section id="one">
 				<div class="inner">
@@ -57,7 +63,7 @@
 				</div>
 			</section>
 
-		<!-- Two -->
+		<!-- description des BD's -->
 
 			<section id="two">
 				<div class="inner">
@@ -72,6 +78,9 @@
 							<p>Nous possèdons une très large gamme de BDs, Des BD Françaises aux BD étrangères, des BD récentes aux plus anciennes ( certaines plus anciennes peuvent tenir lieu de cautions beaucoup plus importantes).</p>
 						</div>
 					</article>
+
+					<!-- Description des mangas -->
+
 					<article class="alt">
 						<div class="content">
 							<header>
@@ -99,8 +108,7 @@
                   </div>
 
 				<div class="inner">
-					<header>
-					</header>
+					
 					<form method="post" action="#">
 						<ul class="actions">
 							<li><input type="submit" value="mentions légales" class="alt" /></li>

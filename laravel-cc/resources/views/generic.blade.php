@@ -3,6 +3,9 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+
+		<!-- titre principal -->
+
 		<title>Commander</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -11,6 +14,7 @@
 	<body>
 
 		<!-- Header -->
+
 			<header id="header">
 				<div class="inner">
 					<span id="connexion"> <a href="connexion" class="connexion">Connexion</a> </span>
@@ -23,7 +27,8 @@
 				</div>
 			</header>
 			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-		<!-- Main -->
+
+		<!-- titre -->
 
 			<section id="main" >
 				<div class="inner">
@@ -33,6 +38,8 @@
 				</div>
 
 				<!-- slider -->
+
+				<!-- mangas -->
 				<div class="contain">
 				<h2><u>Mangas</u></h2>
 			      <div class="row">
@@ -98,6 +105,9 @@
 			      </div>
 			    </div>
 			    <br>
+
+			    <!-- bds -->
+
 			   <h2><u>BD's</u></h2>
 			      <div class="row">
 			        <div class="row__inner">
@@ -170,11 +180,13 @@
 					</header>
 					<form method="post" action="#">
 						<div class="fhf">
-							<label for="name">Titre de l'ouvrage</label>
+
+							<label for="name">Nom de votre ouvrage:</label>
 							<input type="text" name="name" id="name" />
 						</div>
 						<div class="fh">
-							<label for="email">Numéro du tome</label>
+							<label for="email">Numéro du tome:</label>
+
 							<input type="text" name="email" id="email" />
 						</div>
 						
